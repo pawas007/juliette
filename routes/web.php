@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-
-    return view('home', ['categories' => \App\category::all()]);})->name('home');
+Route::get('/', function () {return view('home', ['categories' => \App\category::all()]);})->name('home');
 Route::get('/sidebar', 'BlogController@sidebar')->name('sidebar');
 Route::get('/contact-us', function (){return view('contact');})->name('contact');
 Route::get('/about-us', function (){return view('about');})->name('about');
@@ -26,9 +24,6 @@ Route::get('/about-us', function (){return view('about');})->name('about');
 
 Route::get('/blog', 'ArticleController@index')->name('blog');
 Route::get('/blog/{article}', 'ArticleController@show')->name('singlePost');
-
-
-
 Route::get('/category/{id}', 'ArticleController@category')->name('single_category');
 
 //AUTH USER

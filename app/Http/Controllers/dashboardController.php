@@ -15,14 +15,15 @@ class dashboardController extends Controller
 
     public function dashboard()
     {
-//        Role::create(['name'=>'admin']);
-//        Role::create(['name'=>'writer']);
+        // ostap 
+//        Role::create(['name'=>'superadmin']);
+//        Role::create(['name'=>'moderator']);
 //
-//        Permission::create(['name'=>'moderator']);
+//        Permission::create(['name'=>'root']);
 //        Permission::create(['name'=>'write and edit post']);
 
-//        $role = Role::findById(3);
-//        $permission = Permission::findById(3);
+//        $role = Role::findById(1);
+//        $permission = Permission::findById(1);
 //        $role->givePermissionTo($permission);
 
 //        $user->roles->pluck('name');
@@ -40,7 +41,7 @@ class dashboardController extends Controller
     }
 
 
-
+}
 
 
 

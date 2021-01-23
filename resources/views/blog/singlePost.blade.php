@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
-    <div class="container">
+<div class="container">
         <div class="row">
             <!-- Post Content Column -->
             <div class="col-lg-8">
@@ -33,13 +32,6 @@
                         {{$category->name . ', '}}
                         @endforeach
                     </p>
-{{--                    <hr>--}}
-                    <!-- Date/Time -->
-{{--                    <p>Posted :: {{$article->created_at}}</p> --}}
-
-{{--                    <hr>--}}
-
-                    <!-- Preview Image -->
                     <img class="img-fluid rounded post_img" src="{{ asset('images/postimage')}}/{{$article->postimg}} "
                          alt="">
 

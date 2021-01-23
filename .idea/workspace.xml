@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09fa06a9-701e-4dd8-a4b9-cef64cf3430f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+    <list default="true" id="09fa06a9-701e-4dd8-a4b9-cef64cf3430f" name="Default Changelist" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/dashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/dashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +313,8 @@
       <workItem from="1611221115411" duration="11447000" />
       <workItem from="1611240719255" duration="7926000" />
       <workItem from="1611255198846" duration="14977000" />
-      <workItem from="1611271936885" duration="563000" />
+      <workItem from="1611271936885" duration="2157000" />
+      <workItem from="1611307909386" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="second linux">
       <created>1608137721833</created>
@@ -399,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611162205509</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix">
+      <created>1611272562208</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611272562208</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +440,8 @@
     <MESSAGE value="add to do" />
     <MESSAGE value="refactor todo" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="179" key="#CLI_Interpreters" timestamp="1611065314258">
@@ -479,10 +488,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1611161879557" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611162225749">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611272566402">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1611162225749" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1611272566402" />
     <state x="749" y="420" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611268440289">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
